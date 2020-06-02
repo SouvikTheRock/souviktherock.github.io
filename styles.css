@@ -815,10 +815,14 @@ font-size: 15px;
             flex: 0 0 100%;
         }
         .home{
-            min-height: 100vh;
+            
             background-image: url('smallbackground.png');
-            background-size: cover;
-            background-position: center;
-            padding: 15px;
+           
+        }
+        header .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 10px;
         }
     }
