@@ -796,12 +796,6 @@ font-size: 15px;
             flex: 0 0 100%;
             max-width: 100%;
         }
-        .home{
-            max-height: 100vh;
-            background-image: url('small-background.png');
-            background-size: cover;
-            background-color: #ffffff;
-        }
     }
 
     @media(max-width:500px){
