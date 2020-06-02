@@ -169,7 +169,7 @@ header .navbar ul li a.active::before{
     
 }
 .home .home-content .block h1{
-    color: white;
+    color:#febd01;
     font-size: 70px;
     font-weight: 600;
     margin: 0;
