@@ -801,14 +801,23 @@ font-size: 15px;
     @media(max-width:500px){
         .home .home-content .block h1{
             font-size: 30px;
+            color:#febd01;
         }
         .home .home-content .block h3{
             font-size: 20px;
         }
+        
         .home .home-content .block{
             padding-left: 20px;
         }
         .about-me .about-content .text .info .list p{
             flex: 0 0 100%;
+        }
+        .home{
+            min-height: 100vh;
+            background-image: url('smallbackground.png');
+            background-size: cover;
+            background-position: center;
+            padding: 15px;
         }
     }
