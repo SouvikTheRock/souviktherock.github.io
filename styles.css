@@ -694,6 +694,7 @@ font-size: 15px;
     @media(max-width:767px){
         .home .home-content .block h1{
             font-size: 40px;
+            color:#febd01;
     
         }
         .home .home-content .block h3{
