@@ -797,6 +797,9 @@ font-size: 15px;
             flex: 0 0 100%;
             max-width: 100%;
         }
+        header .navbar ul li a{
+        font-size: 15px;
+        }
     }
 
     @media(max-width:500px){
@@ -819,10 +822,7 @@ font-size: 15px;
             background-image: url('smallbackground.png');
            
         }
-        header .navbar ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            font-size: 10px;
-        }
+        header .navbar ul li a{
+            font-size: 12px;
+            }
     }
