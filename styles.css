@@ -603,7 +603,7 @@ height: 140px;
 .contact-us .contact-form .form-control::placeholder{
     color: #838383;
 }
-.contact-us .contact-form .input[type=submit]{
+.contact-us .contact-form .button a{
     border-radius: 4px;
     color: white;
     border: 1px solid #ffffff;
@@ -617,11 +617,25 @@ height: 140px;
     background-color: #febd01;
     box-shadow: 0px 0px 15px #e8e8e8;
 }
-.contact-us .contact-form .input[type=submit]:hover{
+input[type=submit]{
+ border-radius: 4px;
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: #febd01;
+    box-shadow: 0px 0px 15px #e8e8e8;
+}
+.contact-us .contact-form .button a:hover{
     background-color: #000000;
     color: white;
 }
-.contact-us .contact-form .input[type=submit] {
+.contact-us .contact-form .button {
     flex: 0 0 100%;
     max-width: 100%;
 }
