@@ -349,17 +349,20 @@
                    </div>
                    <div class="row" space-between>
                        <div class="col-6">
-                        <input type="text" class="form-control" name="" placeholder="Name" required>
+                           <form action="contact.php" method="POST">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
                        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                        <div class="col-6">
-                        <input type="email" class="form-control"  name="" placeholder="Email" required>
+                        <input type="email" class="form-control"  name="email" id="email" placeholder="Email" required>
                     </div>
                    </div>
                    <div class="row">
                        <div class="col-12">
-                           <textarea class="form-control" placeholder="Your Comment" required></textarea>
+                           <textarea class="form-control" placeholder="Your Comment" name="comment" id="comment" required></textarea>
                        </div>
                    </div>
+                   <input type="submit" class="button text-right">
+                </form>
                    <div class="button text-right">
                        <a href="mailto:souvikmazumdar@channelsoftech.com">Get In Touch</a>
                    </div>
