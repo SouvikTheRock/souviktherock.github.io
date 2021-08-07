@@ -1,4 +1,4 @@
-alert("There is a new version of this website rolling soon!");
+alert("New version of this website rolling soon!");
 window.onscroll=function(){
     const docScrollTop=document.documentElement.scrollTop;
     if(window.innerWidth>991)
