@@ -1,3 +1,4 @@
+alert("1");
 window.onscroll=function(){
     const docScrollTop=document.documentElement.scrollTop;
     if(window.innerWidth>991)
