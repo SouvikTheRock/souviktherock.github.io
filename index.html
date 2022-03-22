@@ -1,426 +1,837 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Souvik</title>
-    <link rel="shortcut icon" href="title.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script async>(function(w, d) { w.CollectId = "5f259354df7e9e71498e788b"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
-    <script src="script.js"></script>
-    <style> 
-        #loader { 
-            border: 12px solid #f3f3f3; 
-            border-radius: 50%; 
-            border-top: 12px solid #444444; 
-            width: 70px; 
-            height: 70px; 
-            animation: spin 1s linear infinite; 
-        } 
-          
-        @keyframes spin { 
-            100% { 
-                transform: rotate(360deg); 
-            } 
-        } 
-          
-        .center { 
-            position: absolute; 
-            top: 0; 
-            bottom: 0; 
-            left: 0; 
-            right: 0; 
-            margin: auto; 
-        } 
-    </style> 
-  </head>
-  <body>
-    <div id="loader" class="center"></div> 
-   <header>
-       
-       <div class="container">
-        <div class="row">
-           <div class="brand-name">
-               <a href="" class="logo">Souvik</a>
-           </div>
-           <div class="navbar" id="mynavbar">
-               <ul>
-                   <li><a href="#home" class="active">Home</a></li>
-                   <li><a href="#aboutme">About Me</a></li>
-                   <li><a href="#experience">Experience</a></li>
-                   <li><a href="#skills">Skills</a></li>
-                   <li><a href="#awards">Awards&Certifications</a></li>
-                   <li><a href="#contact">Contact Me</a></li>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-               </ul>
-           </div>
-        </div>
-       </div>
-   </header>
-   <section class="home" id="home">
-       <div class="container">
-        <div class="row full-screen">
-            <div class="home-content">
-                <div class="block">
-                    <h6>Hello, Welcome to my profile</h6>
-                    <h1>Souvik Mazumdar</h1>
-                    <h3>Web Developer</h3>
-                    <div class="cv-btn">
-                        <a href="https://drive.google.com/file/d/1SbM-2C54OTds7LfGTTPctjs8QQMAFYlm/view?usp=sharing" target="_blank">Download Resume</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-       </div>
+  <title>Portfolio-Souvik</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-   </section>
-   <section class="about-me" id="aboutme">
-       <div class="container">
-           <div class="row">
-               <div class="section-title">
-                   <h1>About Me</h1>
-                   <p class="small text-uppercase">Information About Me</p>
-               </div>
-           </div>
-           <div class="row">
-               <div class="about-content">
-                   <div class="row">
-                   <div class="img">
-                      <img src="about-me.jpeg" alt="about-me"> 
-                   </div>
-                   <div class="text">
-                       <h4>I'M Souvik Mazumdar</h4>
-                       <h6>I'M Pursuing My B.TECH Degree From <span>Presidency University,</span> Bangalore. I am a Full Stack Developer, I have completed certifications from Google, IBM, Microsoft, etc.  </h6>
-                   <div class="info">
-                    <div class="list">
-                        <label>Age:</label>
-                        <p>21 Years</p>
-                     </div>
-                    <div class="list">
-                       <label>Email:</label>
-                       <p>souvikmazumdar@<br>channelsoftech.com</p>
-                       </div>
-                    
-                    <div class="list">
-                       <label>Residence:</label>
-                       <p>India</p>
-                       </div>
-                   </div>
-                   <div class="social-links">
-                       <a href="https://www.facebook.com/SoUvIk.ThE.r0cK" target="_blank"><i class="fa fa-facebook"></i></a>
-                       <a href="https://twitter.com/login"target="_blank"><i class="fa fa-twitter"></i></a>
-                       <a href="https://www.instagram.com/s0uvik_the_rock/" target="_blank"><i class="fa fa-instagram"></i></a>
-                       <a href="https://www.linkedin.com/in/souvik-mazumdar"target="_blank"><i class="fa fa-linkedin"></i></a>
-                   </div>
-                    </div>
+  <link href="assets/img/title.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-                </div>
-               </div>
-           </div>
-       </div>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-   </section>
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
 
-   <section class="services" id="experience">
-       <div class="container">
-           <div class="row">
-               <div class="section-title text-center">
-                   <h1>Experience</h1>
-               </div>
-           </div>
-           <div class="row">
-               <div class="service-content">
-                        
-                       <div class="box">
-                           <div class="icon">
-                               <i  class="fa fa-html5"></i>
-                               <i  class="fa fa-css3"></i>
-                               <i  class="fa fa-code"></i>
-                           </div>
-                           <h5>Front End Web Developer</h5>
-                           <p>I am a Front End Web Developer with coding skills on HTML, CSS , JavaScript</p>
-                       </div>
-                       <div class="box">
-                        <div class="icon">
-                            <i  class="fa fa-code"></i>
-                        </div>
-                        <h5>Back End Web Developer</h5>
-                        <p>I am a Back End Web Developer with coding skills on Java, Python and PHP</p>
-                    </div>
-                    <div class="box">
-                        <div class="icon">
-                            <i  class="fa fa-building"></i>
-                        </div>
-                        <h5>SEO Analyst(Digital Marketing)</h5>
-                        <p>I am a SEO(Search Engine Optimization) Analyst  having a Experience working with Channel Softech Pvt. Ltd.</p>
-                    </div>
-               </div>
-           </div>
-       </div>
-   </section>
-   <section class="workexp" >
-    <div class="container">
-        <div class="row">
-            <div class="section-title text-center">
-                <h1>Work Experience</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="workexp-content">
-                     
-                    <div class="box">
-                        <div class="icon">
-                            <i  class="fa fa-industry"></i>
-                        </div>
-                        <h5>Interned at:<a href="http://www.channelsoftech.com/" target="_blank"> Channel Softech Pvt. Ltd.</a></h5>
-                        <p>Channel Softech is the leading Web Design Company in Bangalore,which has been founded in 2006 to help small to large level
-                            businesses in developing their meaningful and profitable
-                            online presence with our creativity and skills. <br><br>
-                            <b>Learnings From the Internship:</b><br>
-                          <br>  1.Got to know about challenges and opportunities for digital marketing in India.<br>
-                            2. Gained basic understanding about SEO, SEM and SMM.<br>
-                            3. I learnt about Email Marketing Skills, Social Media Skills.<br>
-                            4. I experienced the corporate feeling which gives me a good exposure.<br>
-                            5. Digital marketing work is all about a team work and I learnt how to work with teams.<br></p>
-                    </div>
-            
-            </div>
-        </div>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Souvik</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#experience">Experience</a></li>
+          <li><a class="nav-link scrollto " href="#skills">Skills</a></li>
+          <li class="dropdown"><a href="#awards"><span>Awards & Certifications</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#awards">Awards</a></li>
+              <li><a href="#certifications">Certifications</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto " href="#projects">Projects</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
     </div>
-    </section>
-   <section class="skills" id="skills">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="skills-content">
-                <div class="row">
-                    <div class="section-title">
-                        <h1>Professional Skills</h1>
-                        <p>Here are some of my skills</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-box">
-                        <h6>HTML 5</h6>
-                        <div class="skill-bar">
-                            <div class="skill-bar-in" style="width:60%;">
-                                <span>60%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-box">
-                        <h6>CSS 3</h6>
-                        <div class="skill-bar">
-                            <div class="skill-bar-in"style="width:50%;">
-                                <span>50%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-box">
-                        <h6>JavaScript</h6>
-                        <div class="skill-bar">
-                            <div class="skill-bar-in"style="width:45%;">
-                                <span>45%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-box">
-                        <h6>PHP</h6>
-                        <div class="skill-bar">
-                            <div class="skill-bar-in"style="width:40%;">
-                                <span>40%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-box">
-                        <h6>AJAX</h6>
-                        <div class="skill-bar">
-                            <div class="skill-bar-in"style="width:20%;">
-                                <span>20%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-box">
-                        <h6>Python</h6>
-                        <div class="skill-bar">
-                            <div class="skill-bar-in"style="width:55%;">
-                                <span>55%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-box">
-                        <h6>C Programming</h6>
-                        <div class="skill-bar">
-                            <div class="skill-bar-in"style="width:70%;">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-box">
-                        <h6>JAVA</h6>
-                        <div class="skill-bar">
-                            <div class="skill-bar-in"style="width:40%;">
-                                <span>40%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="img">
-                <img src="skills.jpg" >
-            </div>
-        </div>
-    </div>
+  </header><!-- End Header -->
 
-   </section>
-   <section class="awards" id="awards">
-       <div class="container">
-           <div class="row">
-               <div class="section-title">
-                   <h1>Awards</h1>
-               </div>
-           </div>
-           <div class="row">
-               <div class="awards-section">
-                <div class="box">
-                    <div class="img">
-                        <img src="award-1.jpeg">
-                    </div>
-                    <div class="info">
-                        <span>April, 2018</span>
-                    </div>
-                    <h3>Won 1st Prize in Web Designing Fest</h3>
-                    <p>Represented Presidency University and won first prize at a Web Designing Fest held at Nagarjuna Degree College, Bangalore</p>
-                </div>
-                <div class="box">
-                    <div class="img">
-                        <img src="award-2.jpeg">
-                    </div>
-                    <div class="info">
-                        <span>November, 2017</span>
-                    </div>
-                    <h3>Won Gaming Competition Held At Presidency University</h3>
-                    <p>Won a Gaming Competition held by ESL One and Hp Omen Gaming at Presidency University</p>
-                </div>
-                
-               </div>
-           </div>
-       </div>
-   </section>
-   
-   <section class="awards" id="awards">
-    <div class="container">
-        <div class="row">
-            <div class="section-title">
-                <h1>Certifications</h1>
-            </div>
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="hero-title mb-4">I am Souvik Mazumdar</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Cloud DevOps Engineer, Ethical Hacker, Full Stack Developer, Freelancer"></span></p>
         </div>
-        <div class="row">
-            <div class="awards-section">
-             <div class="box">
-                 <div class="img">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/X9QV3CVWB6KB" target="_blank"><img src="certificates/g-cloud.png"></a> 
-                 </div>
-                 <h3 style="font-size: 15px;">Google Cloud Platform Fundamentals: Core Infrastructure</h3>
-                </div>
-                <div class="box">
-                    <div class="img">
-                       <a href="https://www.coursera.org/account/accomplishments/verify/2FRB3A2N9D4A" target="_blank"><img src="certificates/ibm.png"></a> 
-                    </div>
-                    <h3 style="font-size: 15px;">Introduction to Cybersecurity Tools & Cyber Attacks</h3>
-                   </div>
-                   <div class="box">
-                    <div class="img">
-                       <a href="https://www.coursera.org/account/accomplishments/verify/GVG5W28PEBQW" target="_blank"><img src="certificates/project-1.png"></a> 
-                    </div>
-                    <h3 style="font-size: 15px;">Create Your First Chatbot with Rasa and Python</h3>
-                   </div>
-                   <div class="box">
-                   <div class="img">
-                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/AMVXSX4WN5JT" target="_blank"><img src="certificates/g-prof.png"></a> 
-                 </div>
-                 <h3 style="font-size: 15px;">Google IT Support Specialization</h3>
-                </div>
-                <div class="box">
-                    <div class="img">
-                     <a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Eyouracclaim%2Ecom%2Fbadges%2F993c08cb-28b6-495c-8525-6059fd946171%3Fsource%3Dlinked_in_profile&urlhash=bS8N&trk=public_profile_see-credential" target="_blank"><img src="certificates/g-badge.png"></a> 
+      </div>
+    </div>
+  </div><!-- End Hero Section -->  
+  <section id="about" class="about-mf sect-pt4 route">
+  <main id="main">
+    <section class="about-me" id="aboutme">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              About Me
+            </h3>
+            <p class="subtitle-a">
+              Information About Me
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+          <div class="row">
+              <div class="about-content">
+                  <div class="row">
+                  <div class="img">
+                     <img src="assets\img\about-me.jpeg" alt="about-me"> 
                   </div>
-                  <h3 style="font-size: 15px;">Google IT Support Professional Certificate: offered by Google</h3>
-                 </div>
-                 <div class="box">
-                    <div class="img">
-                    <img src="certificates/microsoft.png">
+                  <div class="text">
+                      <h6>Highly skilled IT Professional, transitioning from a Computer Science background and working as a Cloud DevOps Engineer
+                      with 1+ years of industry experience. Interned as a Penetration tester from VTF and as a
+                      Digital marketing intern from Channel Softech. Has strong technical skills and interest in Cloud computing, 
+                      DevOps, Cybersecurity, Web Development, Networking-related fields, as well as excellent interpersonal
+                      skills which helps interact with a wide range of clients.
+                       </h6>
+                  <div class="info">
+                    <div class="list">
+                      <label>Current Role:</label>
+                      <p> Cloud DevOps Engineer</p>
+                   </div>
+                   <div class="list">
+                       <label>Age:</label>
+                       <p>21 Years</p>
+                    </div>
+                   <div class="list">
+                      <label>Email:</label>
+                      <a href="mailto:souvikmazumdar676@gmail.com"><p>souvikmazumdar676<br>@gmail.com</p></a>
+                      </div>
+                   
+                   <div class="list">
+                      <label>Residence:</label>
+                      <p>India</p>
+                      </div>
                   </div>
-                  <h3 style="font-size: 15px;">Microsoft Cross Platform Mobile App Development</h3>
-                 </div>
-                
-             
-            </div>
-        </div>
-    </div>
+                  <div class="social-links">
+                      <a href="https://www.facebook.com/SoUvIk.ThE.r0cK" target="_blank"><i class="fa fa-facebook"></i></a>
+                      <a href="https://twitter.com/login"target="_blank"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/s0uvik_the_rock/" target="_blank"><i class="fa fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/souvik-mazumdar"target="_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                   </div>
+
+               </div>
+              </div>
+          </div>
+      </div>
+  </section>
 </section>
-   <section class="contact-us" id="contact">
-       <div class="container">
-           <div class="row">
-               <div class="section-title">
-                   <h1>Get in touch</h1>
-               </div>
-           </div>
-           <div class="row">
-               <div class="contact-form">
-                   <div class="row">
-                       <div class="text">
-                           <h2> Drop Me A Line</h2>
-                       </div>
-                   </div>
-                 
-                   <div class="row" space-between>
-                       <form action="mailto:souvikmazumdar@channelsoftech.com?subject=Message From Website" method="post" enctype="text/plain">
-                       <div class="col-12">
-                        <input type="text" class="form-control" name="ContactName" placeholder="Name" required>
-                       </div>
-                       <div class="col-12">
-                        <input type="email" class="form-control"  name="ContactEmail" placeholder="Email" required>
-                    </div>
-                   </div>
-                   <div class="row">
-                       <div class="col-12">
-                           <textarea class="form-control" placeholder="Your Comment" name="Message" required></textarea>
-                       </div>
-                   </div>
-                   <div style="color: red;">Note: Works only in PC; Mobile users please use the 'Chat now' option to contact.</div>
-                   <div class="button text-right">
-                   <input type="submit" value="GET IN TOUCH">
-                </div>
-                </form>
-                 
-               </div>
-           </div>
-       </div>
-   </section>
-   <footer>
-       <div class="container">
-           <div class="row">
-               <div class="initlogo">
-                Created And Designed By:
-               </div>
-               <div class="logo">
-                Souvik Mazumdar
-               </div>
-               <div class="social">
-                <a href="https://www.facebook.com/SoUvIk.ThE.r0cK" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/login"target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.instagram.com/s0uvik_the_rock/" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/souvik-mazumdar"target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="https://steamcommunity.com/id/SoUvIkTHeRock" target="_blank"><i class="fa fa-steam"></i></a>
-            </div>
-           </div>
-       </div>
-   </footer>
-   <section class="copyright">
-<div class="container">
-    <p>&copy;2021 copyright all right reserved</p>
+<!-- End of About  section -->
+<!-- Start of Experience section -->
+<section id="experience" class="experience-mf pt-5 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">
+            Experience
+          </h3>
+          <p class="subtitle-a">
+            My work Experience
+          </p>
+          <div class="line-mf"></div>
+        </div>
+      </div>
+    </div>
+<main class="CV-page">
+  <div class="CV-grid">
+    <div class="CV-grid-column">
+      <div class="CV-jobs">
+        <section class="CV-timeline CV-job">
+          <h5 class="CV-timeline-heading"><span class="circle"><a href="https://www.primesoft.net/" target="_blank"><img src="assets/img/PrimeSoft.png" style="width:100px;padding:10px;"></a></span><span class="CV-timeline-heading-title"><b>Cloud DevOps Engineer</b></span>&#8211; <span class="CV-timeline-heading-location">PrimeSoft Solutions INC. </span>
+            <small class="CV-timeline-heading-duration">Full Time | February 2021 - Present</small></h5>
+          <ul class="CV-timeline-details">
+            <li class="CV-job-timeline-item">Responsible for provisioning, configuration, troubleshooting PaaS (Platform as a Service) & IaaS (Infrastructure as a Service) components hosted in Microsoft Windows Azure cloud platform</li>
+            <li class="CV-job-timeline-item">Build and maintain tools and frameworks that support deployment automation, health-check of applications and patching activities </li>
+            <li class="CV-job-timeline-item">Support and troubleshoot scalability, high availability, performance, monitoring, backup and restores of different environments</li>
+            <li class="CV-job-timeline-item">Analyze logs to support and troubleshoot application, infrastructure issues in production / non-production environments</li>
+            <li class="CV-job-timeline-item">Design, build, and deliver dashboards and reports to monitor applications and underlying cloud infrastructure to identify bottlenecks causing degradation of service quality and/or availability</li>
+            <li class="CV-job-timeline-item">Evaluate tools, technologies and processes to improve efficiency and scalability of continuous integration environments</li>
+          </ul>
+        </section>
+        <section class="CV-timeline CV-job">
+          <h5 class="CV-timeline-heading"><span class="circle"><a href="https://virtuallytesting.com/" target="_blank"><img src="assets/img/vtf.png" style="width:100px;"></a></span><span class="CV-timeline-heading-title"><b>Penetration Testing Intern</b></span>&#8211; <span class="CV-timeline-heading-location">Virtually Testing Foundation </span>
+            <small class="CV-timeline-heading-duration">Internship | October 2021- December 2021</small></h5>
+          <ul class="CV-timeline-details">
+            <li class="CV-job-timeline-item">OWASP Top 10</li>
+            <li class="CV-job-timeline-item">Web application penetration testing</li>
+            <li class="CV-job-timeline-item">Professional use of pentest tools & Vulnerable exploitations</li>
+            <li class="CV-job-timeline-item">Pentesting report writing</li>
+            <li class="CV-job-timeline-item">Networking with the infosec community</li>
+            <li class="CV-job-timeline-item">Participating in CTFs (Capture the Flag) and exploiting machines</li>
+          </ul>
+        </section>
+        <section class="CV-timeline CV-job">
+          <h5 class="CV-timeline-heading"><span class="circle"><a href="https://www.channelsoftech.com/" target="_blank"><img src="assets/img/cspt.png" style="width:100px;padding:10px;"></a></span><span class="CV-timeline-heading-title"><b>Digital Marketing Intern</b></span>&#8211; <span class="CV-timeline-heading-location">Channel Softech Pvt. Ltd. </span>
+            <small class="CV-timeline-heading-duration">Internship | June 2019- August 2019</small></h5>
+          <ul class="CV-timeline-details">
+            <li class="CV-job-timeline-item">Responsible for maintaining & managing client websites</li>
+            <li class="CV-job-timeline-item">Optimizing content for the website and creating personalized advertisements for social media and other online sites</li>
+            <li class="CV-job-timeline-item">Work on SEO, SEM, and SMM of the website</li>
+            <li class="CV-job-timeline-item">Tracking website traffic, users and providing detaled analysis reports</li>
+            <li class="CV-job-timeline-item">Work in ranking websites #1 on google search </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
 </div>
-   </section>
-  </body>
+</section>
+ <!-- End Experience Section -->
+
+    <!-- ======= Counter Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi bi-building"></i></span>
+              </div>
+              <div class="counter-num">
+                <span style="position:absolute; font-size: 2rem;"> &nbsp;+</span> <p data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="0.5" class="counter purecounter"></p>
+                <span class="counter-text">YEARS OF EXPERIENCE</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-card-heading"></i></span>
+              </div>
+              <div class="counter-num">
+                <span style="position:absolute; font-size: 2rem;">&#160;&nbsp;+</span> <p data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">CERTIFICATIONS</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-list-check"></i></span>
+              </div>
+              <div class="counter-num">
+                <span style="position:absolute; font-size: 2rem;">&#160;&nbsp;+</span><p data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">TECHNICAL SKILLS</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-award"></i></span>
+              </div>
+              <div class="counter-num">
+                <span style="position:absolute; font-size: 2rem;">&nbsp;+</span><p data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">PROJECTS COMPLETED</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Counter Section -->
+
+<!-- Start of Skills section -->
+<br>
+<section id="skills" class="skills-mf pt-5 route">
+<div class="col-sm-12">
+  <div class="title-box text-center">
+    <h3 class="title-a">
+      SKILLS
+    </h3>
+    <p class="subtitle-a">
+      My Technical Skills.
+    </p>
+    <div class="line-mf"></div>
+  </div>
+</div>
+<script>
+function devops(){
+  document.getElementById("devops").style.display = "block";
+}
+function devops1(){
+  document.getElementById("devops").style.display = "none";
+}
+function cloud(){
+  document.getElementById("cloud").style.display = "block";
+}
+function cloud1(){
+  document.getElementById("cloud").style.display = "none";
+}
+function database(){
+  document.getElementById("database").style.display = "block";
+}
+function database1(){
+  document.getElementById("database").style.display = "none";
+}
+function program(){
+  document.getElementById("program").style.display = "block";
+}
+function program1(){
+  document.getElementById("program").style.display = "none";
+}
+function web(){
+  document.getElementById("web").style.display = "block";
+}
+function web1(){
+  document.getElementById("web").style.display = "none";
+}
+function cyber(){
+  document.getElementById("cyber").style.display = "block";
+}
+function cyber1(){
+  document.getElementById("cyber").style.display = "none";
+}
+</script>
+<div class="container">
+  <div class="wrap">
+    <p>DevOps</p>
+    <div class="bar devops delay-devops" onmouseover="devops()" onmouseout="devops1()" onclick="devops()";> <span>60%</span></div>
+  </div>
+
+  <div class="wrap">
+    <p>Cloud Computing</p>
+    <div class="bar cloud delay-cloud" onmouseover="cloud()" onmouseout="cloud1()" onclick="cloud()";><span>65%</span></div>
+  </div>
+
+  <div class="wrap">
+    <p>Databases</p>
+    <div class="bar database delay-database" onmouseover="database()" onmouseout="database1()" onclick="database()";><span>55%</span></div>
+  </div>
+
+  <div class="wrap">
+    <p>Programming Languages</p>
+    <div class="bar program delay-program" onmouseover="program()" onmouseout="program1()" onclick="program()";><span>70%</span></div>
+  </div>
+
+  <div class="wrap">
+    <p>Web Development</p>
+    <div class="bar web delay-web" onmouseover="web()" onmouseout="web1()" onclick="web()";><span>80%</span></div>
+  </div>
+
+  <div class="wrap">
+    <p>Cyber Security</p>
+    <div class="bar cybers delay-cybers" onmouseover="cyber()" onmouseout="cyber1()" onclick="cyber()";><span>60%</span></div>
+  </div>
+     
+  <div class="desc desc-devops" id="devops">
+    <h3>My DevOps Skills Includes</h3>
+    <p>Splunk, Dynatrace, Quantum Metrics, Confluence, Moogsoft, MIR3, BMC, Remedy, Azure Application Insights, Github, CICD</p>
+  </div>
+  
+  <div class="desc desc-cloud" id="cloud">
+    <h3>My Cloud Computing Skills Includes</h3>
+    <p>Microsoft Azure, Google Cloud Platform</p>
+  </div>
+  
+  <div class="desc desc-database" id="database">
+    <h3>My Databases Skills Includes</h3>
+    <p>MYSQL, PostgreSQL, Apache, Redis, Azure SQL Database</p>
+  </div>
+  
+  <div class="desc desc-program" id="program">
+    <h3>My Programming Skills Includes</h3>
+    <p>C/C++, Python, Java, C#</p>
+  </div>
+  
+  <div class="desc desc-web" id="web">
+    <h3>My Web Development Skills Includes</h3>
+    <p> HTML, CSS, JavaScript, AJAX, PHP, jQuery, Flask, Bootstrap, Wordpress, React JS</p>
+    </div>
+
+    <div class="desc desc-cyber" id="cyber">
+      <h3>My Cyber Security Skills Includes</h3>
+      <p> Kali Linux, Network security, System Administration,Python scripting, Virtualization, Active Directory, Penetration Testing, Threat & Vulnerability Management, Risk Analysis, Firewall, Cloud security, Pentest tools.</p>
+      </div>
+</div>
+<br>
+</section>
+<!--End of Skills section -->
+<!-- Start Awards section -->
+<section id="awards" class="awards-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">
+            AWARDS
+          </h3>
+          <p class="subtitle-a">
+            My Awards
+          </p>
+          <div class="line-mf"></div>
+        </div>
+      </div>
+    </div>
+   <center>
+      <div class="col-md-4">
+        <div class="work-box">
+          <a href="certificates/award-1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+            <div class="work-img">
+              <img src="certificates/award-1.jpeg" alt="" class="img-fluid">
+            </div>
+          </a>
+         <br><h1 class="w-title">Won 1st Prize in Web Designing Fest </h1>
+         <p>Represented Presidency University and won first prize at a Web Designing Fest held at Nagarjuna Degree College, Bangalore        </p>
+        <br>
+        </div>
+      </div>
+    </center>
+    </div>
+  </div>
+</section>
+<!-- End Awards Section -->
+    <!-- ======= Certification Section ======= -->
+    <section id="certifications" class="certifications-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                certifications
+              </h3>
+              <p class="subtitle-a">
+                My Certifications
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="certificates/az900.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="certificates/az900.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Microsoft Certified Azure Fundamentals (AZ-900)</h2>
+                    <div class="w-more">
+                      <span class="w-date">Microsoft | Issued: January, 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://www.credly.com/badges/1aa61644-8f58-455e-bd89-6c68b4c72767/public_url" target="_blank"> <span class="bi bi-box-arrow-up-right"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="certificates/isea-full.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="certificates/isea.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Certified Cyber Hygiene Practitioner</h2>
+                    <div class="w-more">
+                      <span class="w-date">MeitY, Government Of India | Issued: October, 2021</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://infosecawareness.in/certificate/chp_102376_SouvikMazumdar.pdf"> <span class="bi bi-box-arrow-up-right"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="certificates/splunk.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="certificates/splunk.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Splunk Certified Power User</h2>
+                    <div class="w-more">
+                      <span class="w-date">Splunk | Issued: April, 2021</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="splunk.html" target="_blank"> <span class="bi bi-box-arrow-up-right"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="certificates/ibm-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="certificates/ibm-2.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Cybersecurity Roles, Processes & Operating System Security</h2>
+                    <div class="w-more">
+                      <span class="w-date">IBM | Issued: September, 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://www.credly.com/badges/78735f0c-c210-47bb-b32c-4f9b4fc8e90f" target="_blank"> <span class="bi bi-box-arrow-up-right"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="certificates/g-prof.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="certificates/g-badge.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Google IT Support Professional Certificate</h2>
+                    <div class="w-more">
+                      <span class="w-date">Google | Issued: August, 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://www.credly.com/badges/993c08cb-28b6-495c-8525-6059fd946171" target="_blank"> <span class="bi bi-box-arrow-up-right"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="certificates/ibm.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="certificates/ibm.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Introduction to Cybersecurity Tools & Cyber Attacks</h2>
+                    <div class="w-more">
+                      <span class="w-date">IBM | Issued: June, 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://www.coursera.org/account/accomplishments/certificate/2FRB3A2N9D4A" target="_blank"> <span class="bi bi-box-arrow-up-right"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="certificates/g-cloud.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="certificates/g-cloud.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Google Cloud Platform Fundamentals: Core Infrastructure</h2>
+                    <div class="w-more">
+                      <span class="w-date">Google | Issued: April, 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://www.coursera.org/account/accomplishments/verify/SUKDDV6VDZL2" target="_blank"> <span class="bi bi-box-arrow-up-right"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="certificates/project-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="certificates/project-1.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Create Your First Chatbot with Rasa and Python</h2>
+                    <div class="w-more">
+                      <span class="w-date">Coursera | Issued: June, 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://www.coursera.org/account/accomplishments/certificate/GVG5W28PEBQW" target="_blank"> <span class="bi bi-box-arrow-up-right"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="certificates/microsoft.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="certificates/microsoft.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Microsoft Cross-Platform Mobile App Development</h2>
+                    <div class="w-more">
+                      <span class="w-date">ATS Learning | Issued: November, 2019</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+<!-- End Certifications Section -->
+    <!-- ======= Project Section ======= -->
+    <section id="projects" class="projects-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Projects
+              </h3>
+              <p class="subtitle-a">
+                My Projects
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://banimandirclub.000webhostapp.com/" target="_blank"><img src="assets/img/project1.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a href="https://banimandirclub.000webhostapp.com/" target="_blank">Booking Application</a></h3>
+                <p class="card-description">
+                  This is my first project for a company where the requirement was a full stack booking website. 
+                  Using this website/application, users can book the venue on any specified date, and can make payment as well.
+                  <br><br>
+                  Details of this application:
+                  <ul>
+                    <li>If a booking had already been done, another user cannot book on the same date</li>
+                    <li>A booking cannot be done on the same day, previous day/month/year</li>
+                    <li>Payment Options - Account Transfer / Cash (By visiting the venue)</li>
+                    <li>Upon succesfull completion of booking, the user gets an email confirmation and a booking receipt</li>
+                    <li>The backend system verifies all the user provided details and validates for errors (if any).</li>
+                    <li>The admin can view the list of bookings in the dashboard and can approve them after payment confirmation, once confirmed
+                      the user gets an confirmation email as well.</li>
+                  </ul>
+                  View the website for more info
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+               <img src="assets/img/project2.png" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Class Representative Voting Application</h3>
+                <p class="card-description">
+                  A voting system where each Student can vote their Class Representatives(Candidates), 
+                  this application has different login application & dashboard for student, candidate, and Admin.
+                  Candidates has own privileges to update their profile.
+                  Admin can add Candidates, Students from various sections and can group them based on section.
+                  A Student can only login and vote their candidate from section they belong to.
+                  <br>
+                  Application was designed keeping few things in mind
+                  <ul>
+                    <li>Each student can vote only once.</li>
+                    <li>Student from section A cannot vote candidates from section B</li>
+                    <li>The final result will be published by Admin and every candidates, students will get a mail for the same</li>
+                    </ul>
+                  This project is not hosted online, for more information please feel free to contact me.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://youtu.be/ETrbTAkRkLk" target="_blank"><img src="assets/img/project3.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a href="https://youtu.be/ETrbTAkRkLk" target="_blank">Desktop Assistant Using Python</a></h3>
+                <p class="card-description">
+                  This project is a desktop assistant using Python programming language. It performs tasks with the help
+                  of a single voice command.
+                  This assistant helps you in:
+                  <ul>
+                    <li>Opening any application</li>
+                    <li>Sending mails to specified user with custom content</li>
+                    <li>Searching wikipedia </li>
+                    <li>Opening websites like Google, Youtube, etc., in a web browser.</li>
+                    <li>Playing music (offline/online)</li>
+                  </ul>
+                  View the video for more information
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Projects Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/abc.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Get In Touch
+                      </h5>
+                    </div>
+                    <div>
+                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Feel free to contact with me using the contact form.
+                        <br>
+                        You can also reach out to me through any of my social media handles!
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-envelope"></span> <a href="mailto:souviktherock@outlook.com?&body=Hey Souvik! I came from your website ">souviktherock@outlook.com</a></li>
+                        <li><span class="bi bi-envelope"></span> <a href="mailto:souvikmazumdar676@gmail.com?&body=Hey Souvik! I came from your website ">souvikmazumdar676@gmail.com</a></li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://www.facebook.com/SoUvIk.ThE.r0cK" target="_blank"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href="https://www.instagram.com/s0uvik_the_rock/" target="_blank"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://twitter.com/Souvik_the_rock" target="_blank"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/souvik-mazumdar" target="_blank"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://steamcommunity.com/id/SoUvIkTHeRock" target="_blank"><span class="ico-circle"><i class="bi bi-steam"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+          <div class="initlogo">
+           Created And Designed By
+          </div>
+          <div class="logo">
+           Souvik Mazumdar
+          </div>
+    </footer><!-- End  Footer -->
+    <section class="copyright">
+      <div class="container">
+          <p>&copy; Copyright. All rights reserved</p>
+      </div>
+      <br>
+         </section>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
