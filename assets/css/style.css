@@ -1,5 +1,5 @@
 /* 
-# General
+# CSS File supporting the website 
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -149,6 +149,11 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  .title-a {
+    font-size: 2rem;
+  }
 }
 
 .subtitle-a {
@@ -309,8 +314,8 @@ a:hover {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  right: 90px;
+  bottom: 14px;
   z-index: 996;
   background: #0078ff;
   width: 40px;
@@ -332,7 +337,7 @@ a:hover {
   opacity: 1;
 }
 
-/*------/ Prelaoder /------*/
+/*------/ Preloader /------*/
 #preloader {
   position: fixed;
   top: 0;
